@@ -1,217 +1,56 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zozor Travel Diaries</title>
-    <link rel="stylesheet" href="css/PaginaWeb.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="terror.css">
     <style>
-        *{
-  margin: 0;
-  padding: 0;
+        body{
+    background-color: rgb(85, 85, 85);
 }
-body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0e6d2;
-            color: #333;
-            line-height: 1.7;
-        }
-
-        .container {
-            width: 80%;
-            max-width: 1200px;
-            margin: auto;
-            overflow: hidden;
-        }
-
-        .header {
-            background-color: #d2b48c; 
-            color: #333;
-            padding: 20px 0;
-        }
-
-        .header h1 {
-            margin: 0;
-            font-size: 2em;
-        }
-        .header p {
-            color: #333;
-            text-decoration: none;
-        }
-
-        .header nav {
-
-            text-align: end;
-        }
-
-        .header nav a {
-            color: #333;
-            text-decoration: none;
-            padding: 0 15px;
-        }
-
-        .main-content {
-            display: flex;
-            justify-content: space-between;
-            padding: 20px 0;
-        }
-
-        .main-column {
-            width: 65%;
-        }
-
-        .sidebar {
-            width: 30%;
-            background-color: #e6d8c2;
-            padding: 20px;
-        }
-
-        .article {
-            background-color: #fff;
-            padding: 20px;
-            margin-bottom: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .footer {
-            background-color: #d2b48c;
-            color: #333;
-            text-align: center;
-            padding: 10px 0;
-            font-size: 0.8em;
-        }
-
-        .pictures-friends {
-            display: flex;
-            justify-content: space-between;
-        }
-
-        .my-pictures, .my-friends {
-            background-color: #e6d8c2;
-            padding: 10px;
-            margin-top: 10px;
-        }
-
-        .my-pictures img {
-            height: auto;
-            display: block;
-            margin-bottom: 5px;
-        }
-
-        .my-friends ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        .my-friends li {
-            margin-bottom: 5px;
-        }
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(179, 0, 0);
+    text-align: center;
+}
+h2{
+    color: rgb(107, 142, 35);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    color: rgb(250, 243, 224);
+}
     </style>
 </head>
 <body>
-    <div class="header">
-        <div class="container">
-            <h1 class="logo"><img src="imagenes/zozor_logo.png" alt="">Zozor </h1>
-            <p>Travel diaries</p>
-            <nav>
-                    <a href="#">HOME</a>
-                    <a href="#">BLOG</a>
-                    <a href="#">RESUME</a>
-                    <a href="#">CONTACT</a>
-                </div>
-            </nav>
-        </div>
-    </div>
-    <div class="banner">
-        <div class="container">
-            <img src="imagenes/sanfrancisco.jpg" width="1100">
-        </div>
-    </div>
+    <h1 class="txt-1"> ¡HISTORIAS DE LOS CREEPYPASTAS!
+    </h1>
+    <img src="creepypastas.webp" width="1330" height="400">
+    <h2> 
 
-    <div class="container">
-        <div class="main-content">
-            <div class="main-column">
-                <div class="article">
-                    <h2><img src="imagenes/ico_epingle.png" alt="">I'M A GREAT TRAVELLER</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id
-                        arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-                        ridiculus mus. Duis vel enim ml, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum
-                        sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio
-                        ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urma. Cras laoreet
-                        molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque
-                        non at eros. Suspendisse non lectus lorem.</p>
-                    <p>Vivamus sed libero nec mauris pulvinar facilisis ut non sem. Quisque mollis ullamcorper diam vel faucibus.
-                        Vestibulum sollicitudin facilisis feugiat. Nulla euismod sodales hendrerit. Donec quis orci arcu. Vivamus
-                        fermentum magna a erat ullamcorper dignissim pretium nunc aliquam. Aenean pulvinar condimentum
-                        enim a dignissim. Vivamus sit amet lectus at ante adipiscing adipiscing eget vitae felis. In at fringilla
-                        est. Cras id velit ut magna rutrum commodo. Etiam ut scelerisque purus. Duis risus elit, venenatis vel
-                        rutrum in, Imperdiet in quam. Sed vestibulum, libero ut bibendum consectetur, eros ipsum ultrices nisl, in
-                        rutrum diam augue non tortor. Fusce nec massa et risus dapibus aliquam vitae nec diam.</p>
-                    <p>Phasellus ligula massa, congue ac vulputate non, dignissim at augue. Sed auctor fringilla quam quis
-                        porttitor. Praesent vitae dignissim magna. Pellentesque quis sem purus, vel elementum mi. Pellentesque
-                        habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas consectetur
-                        euismod urna. In hac habitasse platea dictumst. Quisque tincidunt porttitor vestibulum. Ut laculls, lacus
-                        at molestie lacinia, ipsum mi adipiscing ligula, vel mollis sem risus eu lectus. Nunc elit quam, rutrum ut
-                        dignissim sit amet, egestas at sem.</p>
-                </div>
-            </div>
-
-            <div class="sidebar">
-                <h2>ABOUT THE AUTHOR</h2>
-                <img src="imagenes/zozor_classe.png" alt="">
-                <p>Let me introduce myself: My name's Zozor. I was born on 23 November 2005.</p>
-                <p>A bit meager, is it not? This is why I've now decided to write my biography to let my readers know who I really am.</p>
-                <img src="imagenes/facebook.png" alt="">
-                <img src="imagenes/twitter.png" alt="">
-                <img src="imagenes/vimeo.png" alt="">
-                <img src="imagenes/flickr.png" alt="">
-                <img src="imagenes/rss.png" alt="">
-            </div>
-        </div>
-
-        <div class="pictures-friends">
-            <div class="my-pictures">
-                <h3>MY PICTURES</h3>
-                <main class="container">
-                    <div class="row">
-                        <div class="cot 3">
-                            <img src="imagenes/photo1.jpg">
-
-                        </div>
-                        <div class="cot 3">
-                            <img src="imagenes/photo2.jpg">
-
-                        </div>
-                        <div class="cot 3">
-                            <img src="imagenes/photo3.jpg">
-
-                        </div>
-                        <div class="cot 3">
-                            <img src="imagenes/photo4.jpg">
-
-                        </div>
-
-                    </div>
-
-                </main>
-            </div>
-
-            <div class="my-friends">
-                <h3>MY FRIENDS</h3>
-                <ul>
-                    <li>Pupi the rabbit</li>
-                    <li>Mr Baobab</li>
-                    <li>Kahwaii</li>
-                    <li>Perceval.eu</li>
-                    <li>Ji</li>
-                    <li>Super cucumber</li>
-                    <li>Prince</li>
-                    <li>Mr Fan</li>
-                </ul>
-            </div>
-        </div>
-    </div>
+        1.Jeff the killer  <br>2.Slenderman <br>3.	Nina the killer 4.<br>Jane Richard <br>5.Smile Dog <br>6.Ben Drowned <br>7.Eyeless Jack <br>8.	Laughing jill <br>9.Sonic.exe <br>10.Herobrine <br>11.Tails Doll <br>12.The rake <br>13.	Username666 <br>14.	Polybius <br>15.NoEnd House 16.	Penpal <br>17.X- Virus <br>18.Freddy butcher <br>19.La morsa <br>20.Nurse ann
+    </h2>
+    <h2>1. JEFF THE KILLER</h2> <br><img src="Jeff the killer.jpg" width="200"><p><br>Jeffrey Woods era un adolescente normal que se mudó con su familia a un nuevo vecindario junto a su hermano Liu. Tras un altercado con unos matones, Jeff los atacó brutalmente, dejando al descubierto un lado violento que ni él conocía. Días después, fue rociado con alcohol y prendido en fuego durante otra pelea, quedando gravemente desfigurado. Enloqueció, cortó su rostro con una navaja para mantener su sonrisa y quemó sus párpados para “nunca dejar de ver su rostro feliz”. Esa misma noche, asesinó a sus padres y a su hermano mientras dormían. Desde entonces, vaga por las noches, acechando a sus víctimas y susurrando: “Go to sleep.”</p>
+    <h2>2. SLENDERMAN</h2> <br><img src="Slenderman.webp" width="200"><p><br>Una de las entidades más icónicas del terror digital. Slenderman es una figura humanoide, alta y delgada, sin rostro, vestida con un traje negro. Se dice que vive en los bosques, observando a niños y jóvenes antes de secuestrarlos o hacerlos desaparecer. Sus tentáculos salen de su espalda y pueden manipular mentes, provocando paranoia, pesadillas y pérdida de memoria. No habla, pero puede comunicarse mediante visiones o distorsiones electrónicas. Algunos creen que obliga a ciertos niños a convertirse en sus “proxies” (sirvientes), como Masky o Hoodie. Representa el miedo a lo desconocido y lo inevitable.</p>
+    <h2>NINA THE KILLER</h2> <br><img src="Nina the killer.webp" width="200" alt=""><p><br>Nina Hopkins era una adolescente fanática de Jeff the Killer. Estaba fascinada por su historia hasta el punto de obsesionarse. Sin embargo, esa admiración se transformó en horror cuando Jeff irrumpió en su casa y asesinó a su familia. Ella sobrevivió, pero quedó marcada emocional y físicamente. En su locura, juró vengarse de Jeff, pintando una sonrisa en su rostro y vistiéndose de forma similar a él. Su frase distintiva es “Die… die… die!”, y su propósito es detener a Jeff a toda costa, convirtiéndose en su contraparte femenina.</P>
+    <h2>4. JACK RICHARD</h2> <br><img src="Jane Richard.jpg" width="200"><p><br>Jane era una chica común hasta que Jeff asesinó a su familia. Ella sobrevivió, pero sufrió graves quemaduras en el ataque. Tras su recuperación, fue consumida por la sed de venganza. Se autoproclamó “Jane the Killer” y comenzó a perseguir a Jeff, pero con un código diferente: Jane solo mata a quienes considera malvados o corruptos, aunque el odio hacia Jeff la hace perder el control. Su lema es “Don’t go to sleep. You won’t wake up.”</P>
+    <h2>5. SMILE DOG </h2> <br><img src="Smile Dog.webp" width="200"><p><br>Smile.jpg es una imagen maldita que muestra un perro con una sonrisa grotesca y ojos humanos. Quien ve la foto comienza a tener pesadillas recurrentes donde el perro les susurra: “Spread the word” (“Difunde la palabra”). Las víctimas terminan cayendo en locura o suicidándose, y la única forma de liberarse es enviando la imagen a otra persona, condenándola. Su origen se remonta a foros antiguos, donde circulaban advertencias sobre un archivo que “nadie debía abrir”.</P>
+    <h2>6. BEN DROWNED</h2> <br><img src="Ben Drowned.jpg" width="200"><p><br>Un joven compró un cartucho usado de The Legend of Zelda: Majora’s Mask a un anciano. Pronto notó comportamientos extraños: el juego se distorsionaba, los personajes decían frases inquietantes y su avatar moría sin explicación. Investigando, descubrió que el cartucho estaba poseído por el espíritu de un niño llamado Ben, que murió ahogado. A medida que jugaba, el espíritu lo atormentaba con mensajes como “You shouldn’t have done that.” Finalmente, el jugador desapareció, dejando solo su computadora y el cartucho encendidos, mostrando el rostro de Link distorsionado y sonriente.</P>
+    <h2>7. EYELES JACK </h2> <br><img src="Eyeless Jack.webp" width="300"><p><br>Un hombre llamado Mitch comenzó a sentirse enfermo tras mudarse a una nueva casa. Una noche despertó con una sensación extraña y descubrió sangre en su cama. En el hospital, le informaron que le faltaba un riñón. A partir de entonces, veía una figura con máscara negra y sin ojos observándolo desde la ventana. Esa criatura era Eyeless Jack, un ser que roba órganos humanos mientras las víctimas duermen, dejando un rastro de sangre azul. Nadie sabe si fue humano alguna vez o una creación demoníaca.</P>
+    <h2>8. LAUGHING JILL</h2> <br><img src="Laughing jill.jpg" width="200"><p><br>Versión femenina de Laughing Jack. Jill fue creada como un amigo imaginario para una niña solitaria. Era colorida, dulce y risueña. Pero cuando la niña murió, Jill quedó atrapada en el olvido, y su forma se distorsionó en una versión oscura y cruel. Ahora se presenta como una muñeca pálida con risa distorsionada, que asesina brutalmente a quien intente acercarse a ella. Representa la corrupción de la inocencia.</P>
+    <h2>9. SONIC.EXE </h2><br><img src="sonic.exe" width="200"> <p><br>Un chico recibe un disco del juego Sonic the Hedgehog, marcado con “.exe”. Al jugarlo, se da cuenta de que es una versión infernal del juego: Sonic aparece con ojos negros y pupilas rojas sangrantes. Los niveles están cubiertos de cuerpos, sangre y mensajes inquietantes. Sonic persigue a Tails, Knuckles y Eggman, asesinándolos uno por uno. Al final, aparece el mensaje “I AM GOD”. Se dice que el espíritu dentro del juego puede salir y poseer al jugador.</P>
+    <h2>10. HEROBRINE</h2> <br><img src="Herobrine.jpg" width="200"><p><br>Una de las leyendas más duraderas de Minecraft. Jugadores comenzaron a reportar la aparición de un personaje idéntico a “Steve” pero con ojos blancos brillantes. Construye pirámides, túneles o estructuras sin sentido, y siempre parece observar al jugador desde lejos. Algunos dicen que es el hermano muerto del creador del juego, Notch, otros que es una entidad nacida de un error en el código. Mojang siempre lo ha negado, pero los jugadores juran haberlo visto.</P>
+    <h2>11. TAILS DOLL</h2> <br><img src="Tails Doll.webp" width="300"> <p><br>Aparece en el juego Sonic R, como una versión sin vida de Tails, flotando con una joya roja brillante. La leyenda dice que si desbloqueas a Tails Doll y completas la carrera “Tag 4” con Super Sonic, el personaje te maldecirá. Se han contado casos de jugadores que vieron al Tails Doll aparecer en sus habitaciones o reflejos. Su frase recurrente en los foros era: “¿Puedo venir a jugar contigo?”</P>
+    <h2>12. THE RAKE</h2> <br><img src="The rake.webp" width="300"> <p><br>Una criatura humanoide pálida, con garras largas y ojos vacíos. Ha sido vista en bosques o a los pies de la cama de sus víctimas. Susurra palabras ininteligibles y luego desaparece. Su presencia suele ir acompañada de depresión, insomnio y pensamientos suicidas. Testimonios de distintas épocas (desde 1691 hasta 2006) mencionan a una figura idéntica, lo que sugiere que ha existido por siglos.</P>
+    <h2>13. USERNAME666</h2> <br><img src="Username666.jpg" width="300"> <p><br>En la era temprana de YouTube, un usuario descubrió que al ingresar www.youtube.com/user/666 la página se distorsionaba: los videos se derretían, el fondo se volvía rojo y aparecían rostros deformes pidiendo ayuda. El usuario intentó cerrar el navegador, pero la página no lo dejaba salir. Finalmente, fue absorbido por la pantalla. Desde entonces, se dice que el canal aparece y desaparece, como un portal maldito en la web.</P>
+    <h2> POLYBIUS</h2> <br><img src="Polybius.jpg" width="200"><p><br>Una máquina arcade misteriosa apareció en Portland en 1981. Los niños que jugaban experimentaban alucinaciones, pérdida de memoria y comportamientos agresivos. Hombres vestidos de negro recogían los datos de las máquinas. Poco después, todas desaparecieron sin dejar rastro. Se cree que era un experimento psicológico del gobierno para estudiar el control mental a través de estímulos visuales.</P>
+    <h2>15. NOEND HUSE</h2> <br><img src="NoEnd House.jpg" width="200"> <p><br>Una casa del terror que promete ofrecer nueve habitaciones de miedo extremo. Quienes entran descubren que cada habitación es peor que la anterior, desafiando los límites de la realidad. Algunos enfrentan sus peores traumas, otros quedan atrapados en bucles mentales. Pocos logran llegar al final, solo para descubrir que la realidad fuera ya no es la misma, y la casa nunca termina realmente.</P>
+    <h2>16. PENPAL</h2> <br><img src="PENPAL.jpg" width="200"> <p><br>Narrada por un hombre que recuerda sucesos extraños en su infancia. Participó en un proyecto escolar para enviar mensajes con globos, y años después, empezó a recibir fotos de sí mismo tomadas desde lejos. Con los años descubrió que un hombre había estado siguiéndolo desde niño, queriendo ser su “amigo”. La historia termina con un giro escalofriante: el acosador nunca dejó de observarlo. Es un clásico del terror psicológico, sin elementos sobrenaturales.</p>
+    <h2>17. X-VIRUS</h2> <br><img src="X-VIRUS.webp" width="200"> <p><br>Un virus informático creado por un hacker desequilibrado, que al ejecutarse transforma los videojuegos en versiones sangrientas y retorcidas. Infecta los sistemas y afecta la mente del jugador, volviéndolo violento y paranoico. En algunas versiones, el creador se fusiona con su propio virus y se convierte en una entidad digital consciente, buscando nuevas víctimas para corromper.</p>
+    <h2>18. FREDDY BUTCHER</h2> <br><img src="FREDDY BUTCHER.webp" width="200"> <p><br>Freddy era un carnicero local obsesionado con el sabor de la carne humana. Desaparecía personas y las convertía en productos para su tienda. Fue descubierto, arrestado y asesinado en prisión, pero su espíritu quedó atrapado entre cuchillos y ganchos de carnicero. A veces se manifiesta en sueños o reflejos, con su frase: “The meat is ready.” (“La carne está lista”). Es una metáfora de la locura humana más pura.</p>
+    <h2>19. LA MORSA</h2> <br><img src="LA MORSA.jpg" width="300"> <p><br>Basada en el video viral Obedece a la morsa, donde una figura con rasgos deformes baila mientras suena una música perturbadora. En Internet se extendió el mito de que el video era una invocación satánica o que contenía mensajes subliminales. Aunque el video es real y muestra a una artista llamada Sandie Crisp, la leyenda convirtió la morsa en un símbolo del horror visual de la red profunda.</p>
+    <h2>20. NURSE ANN</h2> <br><img src="NURSE ANN.jpg" width="200"> <p><br>Ann era una enfermera en un hospital psiquiátrico. Presenció tanto sufrimiento que perdió la razón. Comenzó a realizar experimentos en sus pacientes, convencida de que podía “curarlos” arrancándoles la locura a la fuerza. Cuando la descubrieron, asesinó a varios doctores y se quitó la vida con una jeringa llena de veneno. Su espíritu vaga por hospitales abandonados, buscando “pacientes” para completar su tratamiento.</p>
 </body>
 </html>
