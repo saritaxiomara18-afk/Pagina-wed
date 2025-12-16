@@ -5,24 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet">
-    <style>
-        body{
-    background-color: rgb(85, 85, 85);
-}
-h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(179, 0, 0);
-    text-align: center;
-}
-h2{
-    color: rgb(107, 142, 35);
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-p{
-    color: rgb(250, 243, 224);
-}
-    </style>
 </head>
 <body>
     <h1 class="txt-1"> ¡HISTORIAS DE LOS CREEPYPASTAS!
